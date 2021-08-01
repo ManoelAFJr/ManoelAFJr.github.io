@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 80%;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* letter-spacing: 3px; */
+}
+body {
+  background-image: url("https://jonasmuthoni.com/blog/wp-content/uploads/2021/04/What_is_Information_Technology-1536x838.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#menu {
+  display: flex;
+  padding: 15px;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  grid-template-columns: 3fr 3fr;
+}
+
+@media (max-width: 514px) {
+  #menu {
+    flex-direction: column;
+  }
+
+  #navegacao ul {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 15px;
+    gap: 5px;
+    padding: 0;
+  }
+}
+#logo img {
+  height: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #00d18b;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 30px;
+  padding: 0px;
+}
+
+#navegacao {
+  color: rgb(0, 0, 0);
+}
+
+#navegacao ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+#navegacao ul li {
+  /* border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px; */
+  /* width: 150px; */
+}
+.btn a {
+  text-decoration: none;
+}
+
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #d2dbd6;
+  background: linear-gradient(to bottom, #00d18b 5%, #0000001f 100%);
+  background-color: #e7938d25;
+  /* border-radius: 6px; */
+  border: 1px solid #e29e9823;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-size: 15px; */
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #43effc;
+  text-align: center;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #a7292928 5%, #43effc 100%);
+  background-color: #43effc;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+#grid {
+  display: grid;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+}
+#grid > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 2px 3px #000;
+}
+
+#grid-1 {
+  display: grid;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  grid-template-columns: 5fr 10fr;
+}
+
+@media (max-width: 768px) {
+  #grid-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+#grid-1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 2px 3px #000;
+}
+
+#conteudo img {
+  max-width: 600px;
+  max-height: 300px;
+  text-align: center;
+  border: 10px solid white;
+  box-shadow: 3px 3px 5px #000;
+}
+#conteudo-1 {
+  display: grid;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 350px;
+  height: 200px;
+  background: linear-gradient(0, #120c56, #000000);
+  border-radius: 5px;
+}
+.stars {
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 100px 80px white, 80px 120px white,
+    300px 20px white, 250px 130px white, 200px 50px white, 150px 100px white,
+    320px 100px rgb(177, 156, 156);
+  animation: anim-stars 15s linear infinite;
+}
+@keyframes anim-stars {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.stars::after {
+  content: "";
+  position: relative;
+  top: 150px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 100px 80px white, 80px 120px white,
+    300px 20px white, 250px 130px white, 200px 50px white, 150px 100px white,
+    320px 100px white;
+}
+.stars2 {
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white, 125px 35px white, 50px 80px white,
+    10px 120px white, 275px 90px white, 230px 10px white, 120px 130px white,
+    300px 130px white, 220px 115px white;
+  animation: anim-stars 20s linear infinite;
+}
+.stars2::after {
+  content: " ";
+  position: absolute;
+  top: 150px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white, 125px 35px white, 50px 80px white,
+    10px 120px white, 275px 90px white, 230px 10px white, 120px 130px white,
+    300px 130px white, 220px 115px white;
+}
+
+h3 {
+  max-width: 480px;
+  text-align: center;
+  justify-content: center;
+  margin: 60px auto;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+h3::after {
+  content:"|";
+  opacity: 1;
+  margin-left: 8px;
+  display: inline-block;
+  animation: blink.7s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  color: #43effc;
+  background-color: black;
+}

@@ -112,6 +112,9 @@ img {
   border-radius: 10px 0px 10px 0px;
   box-shadow: 2px 3px #000;
 }
+.redes{
+  text-align: center;
+}
 
 #grid-1 {
   display: grid;

@@ -1,3 +1,7 @@
+## Redes sociais ##
+
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ManoelAFjr/ManoelAFJr.github.io?color=black&label=gitHub&logo=GitHub&style=social"> 
+
 ### Hi there 👋, I am Manoel A Ferreira Junior or MJ
 ### About me
 

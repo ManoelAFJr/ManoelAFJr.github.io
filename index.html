@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" type="text/css" href="css/pagina.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <div id="logo">
+        <img src="img/type3.PNG" />
+      </div>
+      <div id="navegacao">
+        <ul>
+          <li class="btn"><a href="index.html"> Home </a></li>
+          <li class="btn"><a href="contato.html"> Contato</a></li>
+          <li class="btn"><a href="">Equipe</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="grid">
+      <div>
+        <a></a>
+      </div>
+    </div>
+    <div id="grid-1">
+      <div id="conteudo">
+        <p></p>
+        <p></p>
+        <p>
+          <img src="img/PPCM5891.JPG" />
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deleniti
+          libero distinctio neque repudiandae facere sunt cupiditate quam!
+          Quidem adipisci quae neque fuga accusamus laboriosam eum nihil,
+          debitis sunt qui.
+        </p>
+      </div>
+      <div id="conteudo-1">
+        <div class="container">
+          <div class="stars"></div>
+          <div class="stars2"></div>
+          <h3>
+            manoeljunior_06 amateur developer!
+          </h3>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Analise e Desenvolvimento de Sistemas - @manoeljunior_06 - 2021
+    </footer>
+    <script>
+      function typeWriter(element) {
+        const textArray = element.innerHTML.split("");
+        element.innerHTML = "";
+        textArray.forEach(function (letra, i) {
+          setTimeout(() => (element.innerHTML += letra), 80 * i);
+        });
+      }
+      const manoel = document.querySelector("h3");
+      typeWriter(manoel);
+
+      typeWriter(document.querySelector(".manoel"));
+    </script>
+  </body>
+</html>

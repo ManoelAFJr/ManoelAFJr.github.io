@@ -23,6 +23,10 @@ body {
   grid-template-columns: 3fr 3fr;
 }
 
+p{
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
 @media (max-width: 514px) {
   #menu {
     flex-direction: column;

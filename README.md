@@ -5,7 +5,7 @@
  
   <a href = "https://www.linkedin.com/in/manoel-a-f-junior-2632a3207/;show_switched_toast=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0" rel="nofollow"> <img alt="linkedin Badge"  src="https://img.shields.io/badge/linkedin-1877F2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"></a>
   
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ManoelAFjr/ManoelAFJr.github.io?color=black&label=gitHub&logo=GitHub&style=social"> 
+<a href = "https://github.com/ManoelAFJr;show_switched_toast=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0" rel="nofollow"> <img alt="instagram Badge"  src="https://img.shields.io/badge/github-171515?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
 
 ## ##
 #### Está pagina será modificada no decorrer do tempo, é uma forma de aprendizagem e melhorar o que sei. ####
